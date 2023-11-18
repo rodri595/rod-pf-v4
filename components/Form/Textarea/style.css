@@ -1,0 +1,48 @@
+.textarea--container {
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  position: relative;
+  flex-shrink: 0;
+}
+.textarea--container > label {
+  width: 100%;
+  font-weight: bold;
+}
+.textarea--input {
+  padding: 11px 16px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  color: var(--b);
+  font-weight: bold;
+  background: #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+  resize: vertical;
+}
+.textarea--textarea:hover {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+.textarea--textarea:focus {
+  border: 1px solid #282828;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+.textarea--textarea:invalid:not(:placeholder-shown) {
+  border: 1px solid #ec5555;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+.textarea--textarea:valid:not(:placeholder-shown) {
+  border: 1px solid #42bf1e;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+.textarea--textarea:disabled {
+  background: #cdcdcd;
+  cursor: not-allowed;
+}
+.textarea--textarea::placeholder {
+  color: #9a9a9a;
+  font-weight: 400;
+}

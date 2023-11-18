@@ -1,0 +1,8 @@
+.spinner-full {
+    width: 100%;
+    height: 100%;
+}
+
+.spinner--container {
+    gap: .5rem;
+}

@@ -1,0 +1,4 @@
+.img-figure {
+  flex-shrink: 0;
+  overflow: hidden;
+}

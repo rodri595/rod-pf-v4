@@ -1,0 +1,31 @@
+.button--container {
+  font-family: var(--font-family);
+  padding: 12px;
+  gap: 10px;
+  border-radius: 100px;
+  background: #65d46e;
+  color: #282828;
+  border-radius: 8px;
+}
+.button-round {
+  border-radius: 100px;
+}
+.button-secondary {
+  background: transparent;
+  border: 1px solid #120f20;
+}
+.button-ghost {
+  background: transparent;
+  border: none;
+}
+
+.button-underline {
+  text-decoration: underline;
+  /* text-underline-offset: 5px; */
+  background: transparent;
+}
+
+.button--container:hover {
+  color: var(--w);
+  background-color: #120f20;
+}

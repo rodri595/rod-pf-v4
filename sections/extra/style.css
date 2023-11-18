@@ -1,0 +1,12 @@
+.Hero--container {
+  width: 100%;
+  height: 100dvh;
+}
+
+.Hero-content {
+  color: var(--primary-color);
+  width: 100%;
+  height: 100%;
+  clip-path: circle(0.5% at 50% 600px);
+  background-color: white;
+}

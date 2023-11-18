@@ -1,0 +1,14 @@
+.input-input {
+  width: 100%;
+  background-color: unset;
+}
+
+.input-input:focus {
+  outline: none;
+  font-weight: bold;
+}
+
+.input-input::placeholder {
+  color: #b0b0b0;
+  font-weight: 400;
+}

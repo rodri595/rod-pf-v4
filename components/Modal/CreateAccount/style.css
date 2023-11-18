@@ -1,0 +1,62 @@
+.ModalCreateAccount-container {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 32px;
+  width: 480px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.ModalCreateAccount-head {
+  width: 100%;
+  justify-content: space-between;
+  padding: 12px 32px;
+}
+.ModalCreateAccount-body {
+  width: 100%;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px 32px;
+  gap: 32px;
+}
+.ModalCreateAccount-body > h4 {
+  font-weight: bold;
+}
+.ModalCreateAccount-body-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #cdcdcd;
+}
+.ModalCreateAccount-body-label {
+  font-weight: bold;
+}
+
+.ModalCreateAccount-btn {
+  width: 100%;
+  font-weight: bold;
+}
+.ModalCreateAccount-extra {
+  width: 100%;
+  text-align: center;
+}
+/* @media screen and (max-width: 1513px) { } */
+@media screen and (max-height: 568px) {
+  .ModalCreateAccount-container {
+    max-height: 90vh;
+  }
+  .ModalCreateAccount-body {
+    overflow: scroll;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ModalCreateAccount-container {
+    width: 90vw;
+    max-height: 90vh;
+  }
+  .ModalCreateAccount-body {
+    overflow: scroll;
+  }
+}

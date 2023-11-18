@@ -1,0 +1,63 @@
+.fieldset--container {
+  width: 100%;
+  gap: 16px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.fieldset--container > label {
+  width: 100%;
+  font-weight: bold;
+}
+
+.fieldset-select {
+  height: 20px;
+  background: #ffffff;
+  border: none;
+  width: 100%;
+  color: var(--b);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+.fieldset-select:focus {
+  outline: none;
+}
+
+.fieldset-select > option {
+  color: var(--b);
+  font-weight: 600;
+  font-family: var(--font-family);
+}
+/* 
+
+.fieldset-select:hover {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+.fieldset-select:focus {
+    border: 1px solid #282828;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.fieldset-select:invalid {
+    border: 1px solid #EC5555;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.fieldset-select:valid {
+    border: 1px solid #42BF1E;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.fieldset-select:disabled {
+    background: #CDCDCD;
+    cursor: not-allowed;
+}
+
+.fieldset-select::placeholder {
+    color: #9A9A9A;
+    font-weight: 400;
+} */

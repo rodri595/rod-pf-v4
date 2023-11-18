@@ -1,0 +1,19 @@
+.radiobutton {
+  padding: 12px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #e6e6e6;
+}
+.radiobutton-name {
+  color: #686868;
+  font-family: Neue Plak;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}
+.radiobutton:has(> input:checked) {
+  border-radius: 8px;
+  border: 1px solid #e6e6e6;
+  background: #e6e6e6;
+}
