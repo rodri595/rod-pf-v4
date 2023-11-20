@@ -78,6 +78,7 @@ const ModalCreateAccount = ({ visible, onClose }) => {
           <Button
             className="ModalCreateAccount-btn"
             round
+            type="button"
             disabled={isLoadingSecurity}
           >
             Crear Cuenta <Icon name="arrow right" size="18" />

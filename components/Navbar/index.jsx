@@ -37,7 +37,7 @@ const Navbar = () => {
                 Contact
               </Link>
             </ul>
-            <button className="navbar-row-menu aic anim">
+            <button className="navbar-row-menu aic anim" type="button">
               <Icon name="menu-04" className="navbar-row-menu-icon" />
             </button>
           </div>
