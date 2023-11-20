@@ -24,6 +24,8 @@ const Hero = () => {
             autoPlay
             muted
             loop
+            //not clickable
+
             className="hero-content-box-video"
             src="https://player.vimeo.com/external/568145204.sd.mp4?s=94c95b49fc3ed4d7d41b3244e7998725f8afc76c&profile_id=165&oauth2_token_id=57447761"
           />

@@ -7,14 +7,14 @@ const footer = () => {
   return (
     <footer className="footer--container aic anim ">
       <div className="footer-content aic anim debug">
-        <Link className="footer-brand aic anim" href="/">
+        <div className="footer-brand aic anim">
           <Image
             src={logo}
             className="footer-brand-img hover star-rotate"
             priority
             alt="rodrigo's brand logo icon"
           />
-        </Link>
+        </div>
         <div className="footer-body aic">
           <Link
             href="mailto:rodrigo@magistralem.com"
