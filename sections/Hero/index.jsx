@@ -21,14 +21,18 @@ const Hero = () => {
           data-scroll-repeat
         >
           <video
+            autobuffer="true"
+            playsInline
             autoPlay
             muted
             loop
-            //not clickable
-
             className="hero-content-box-video"
-            src="https://player.vimeo.com/external/568145204.sd.mp4?s=94c95b49fc3ed4d7d41b3244e7998725f8afc76c&profile_id=165&oauth2_token_id=57447761"
-          />
+          >
+            <source
+              src="https://player.vimeo.com/external/568145204.sd.mp4?s=94c95b49fc3ed4d7d41b3244e7998725f8afc76c&profile_id=165&oauth2_token_id=57447761"
+              type="video/mp4"
+            />
+          </video>
         </div>
         {/*  */}
         <div
@@ -44,12 +48,18 @@ const Hero = () => {
             data-scroll-repeat
           >
             <video
+              autobuffer="true"
+              playsInline
               autoPlay
               muted
               loop
               className="hero-content-box-video"
-              src="https://player.vimeo.com/progressive_redirect/playback/798890733/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=2db8145f096d4afda6bafbced9d180de988058d98b4505776d09636a1b3773b9"
-            />
+            >
+              <source
+                src="https://player.vimeo.com/progressive_redirect/playback/798890733/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=2db8145f096d4afda6bafbced9d180de988058d98b4505776d09636a1b3773b9"
+                type="video/mp4"
+              />
+            </video>
           </div>
           <div
             className="hero-content-box hero-content-box-C"
@@ -58,12 +68,18 @@ const Hero = () => {
             data-scroll-repeat
           >
             <video
+              autobuffer="true"
+              playsInline
               autoPlay
               muted
               loop
               className="hero-content-box-video"
-              src="https://player.vimeo.com/progressive_redirect/playback/792592328/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=5c070d4a2bb7c9ee5fe30a1f81607c62e7ac8858ff008581948ac147d24614a8"
-            />
+            >
+              <source
+                src="https://player.vimeo.com/progressive_redirect/playback/792592328/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=5c070d4a2bb7c9ee5fe30a1f81607c62e7ac8858ff008581948ac147d24614a8"
+                type="video/mp4"
+              />
+            </video>
           </div>
         </div>
         {/*  */}
@@ -75,21 +91,33 @@ const Hero = () => {
         >
           <div className="hero-content-box hero-content-box-C">
             <video
+              autobuffer="true"
+              playsInline
               autoPlay
               muted
               loop
               className="hero-content-box-video"
-              src="https://player.vimeo.com/progressive_redirect/playback/691304806/rendition/360p?loc=external&oauth2_token_id=57447761&signature=077fefc29dbd796a66ed8deeaeb9ff495b0a071b6eca776f507cef15424d3d28"
-            />
+            >
+              <source
+                src="https://player.vimeo.com/progressive_redirect/playback/691304806/rendition/360p?loc=external&oauth2_token_id=57447761&signature=077fefc29dbd796a66ed8deeaeb9ff495b0a071b6eca776f507cef15424d3d28"
+                type="video/mp4"
+              />
+            </video>
           </div>
           <div className="hero-content-box hero-content-box-D">
             <video
+              autobuffer="true"
+              playsInline
               autoPlay
               muted
               loop
               className="hero-content-box-video"
-              src="https://player.vimeo.com/external/560138399.sd.mp4?s=4ae6f18a4d755cc137ab982407a58602025d92fd&profile_id=164&oauth2_token_id=57447761"
-            />
+            >
+              <source
+                src="https://player.vimeo.com/external/560138399.sd.mp4?s=4ae6f18a4d755cc137ab982407a58602025d92fd&profile_id=164&oauth2_token_id=57447761"
+                type="video/mp4"
+              />
+            </video>
           </div>
         </div>
         {/*  */}
@@ -100,14 +128,19 @@ const Hero = () => {
           data-scroll-repeat
         >
           <video
+            autobuffer="true"
+            playsInline
             autoPlay
             muted
             loop
             className="hero-content-box-video"
-            // src="https://player.vimeo.com/external/592804480.sd.mp4?s=b369c244e795271528dd6e384f0430b3cf6b597b&profile_id=164&oauth2_token_id=57447761"
-
-            src="https://player.vimeo.com/progressive_redirect/playback/811839511/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=84795a535d19a9524464c6110fd650e6715096c1bd46a22945ac7e5a655aa5a0"
-          />
+          >
+            <source
+              // src="https://player.vimeo.com/external/592804480.sd.mp4?s=b369c244e795271528dd6e384f0430b3cf6b597b&profile_id=164&oauth2_token_id=57447761"
+              src="https://player.vimeo.com/progressive_redirect/playback/811839511/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=84795a535d19a9524464c6110fd650e6715096c1bd46a22945ac7e5a655aa5a0"
+              type="video/mp4"
+            />
+          </video>
         </div>
       </div>
     </section>

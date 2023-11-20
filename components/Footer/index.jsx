@@ -1,6 +1,4 @@
 import "./style.css";
-import Image from "../Image";
-import logo from "@/app/assets/img/brand/logo.svg";
 import Link from "next/link";
 import Icon from "../Icon";
 const footer = () => {
@@ -8,12 +6,7 @@ const footer = () => {
     <footer className="footer--container aic anim ">
       <div className="footer-content aic anim debug">
         <div className="footer-brand aic anim">
-          <Image
-            src={logo}
-            className="footer-brand-img hover star-rotate"
-            priority
-            alt="rodrigo's brand logo icon"
-          />
+          <Icon name="logo" />
         </div>
         <div className="footer-body aic">
           <Link

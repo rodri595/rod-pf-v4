@@ -1,7 +1,5 @@
 "use client";
 import "./style.css";
-import Image from "../Image";
-import logo from "@/app/assets/img/brand/logo.svg";
 import Link from "next/link";
 import Icon from "../Icon";
 const Navbar = () => {
@@ -14,12 +12,7 @@ const Navbar = () => {
     >
       <div className="navbar-content aic">
         <div className="navbar-brand aic anim">
-          <Image
-            src={logo}
-            className="navbar-brand-img hover star-rotate"
-            priority
-            alt="rodrigo's brand logo icon"
-          />
+          <Icon name="logo" />
         </div>
         <div className="navbar-links aic">
           <div className="navbar-row aic">

@@ -30,11 +30,6 @@
 .navbar-brand:hover {
   background-color: #282828;
 }
-.navbar-brand-img {
-  width: 40px;
-  height: 40px;
-  filter: invert(1);
-}
 
 .navbar-links {
   flex-direction: column;
@@ -113,10 +108,7 @@
   .navbar-brand {
     flex: 0 0 86px;
   }
-  .navbar-brand-img {
-    width: 25.489px;
-    height: 25.489px;
-  }
+
   .navbar-row {
     border-bottom: none;
     /* padding: 0 16px; */
